@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PagoAlerta · Política de privacidad</title>
+<style>
+  :root { --brand: #DA0081; --text: #1E1A1D; --muted: #6E646B; --bg: #F7F3F6; --card: #FFFFFF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --brand: #FF4FB0; --text: #F3EEF2; --muted: #B4A9B1; --bg: #141014; --card: #211B20; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { background: linear-gradient(135deg, #8E0057, #DA0081); color: #fff; padding: 32px 16px; }
+  header h1 { margin: 0; font-size: 28px; }
+  header p { margin: 4px 0 0; opacity: .85; }
+  main { max-width: 760px; margin: 0 auto; padding: 16px; }
+  section { background: var(--card); border-radius: 16px; padding: 4px 20px 12px; margin: 16px 0; }
+  h2 { color: var(--brand); font-size: 18px; margin: 16px 0 4px; }
+  li { margin: 4px 0; }
+  footer { color: var(--muted); font-size: 14px; text-align: center; padding: 24px 16px 40px; }
+</style>
+</head>
+<body>
+<header>
+  <main style="padding:0">
+    <h1>PagoAlerta</h1>
+    <p>Política de privacidad · Vigente desde el 14 de octubre de 2026</p>
+  </main>
+</header>
+<main>
+  <section>
+    <h2>Quiénes somos</h2>
+    <p>PagoAlerta es una aplicación desarrollada por <strong>WowDark SAS</strong> (Colombia) que anuncia en voz alta
+    los pagos que recibe un negocio a través de la app de Nequi. PagoAlerta no está afiliada, patrocinada ni
+    respaldada por Nequi ni por Bancolombia.</p>
+  </section>
+
+  <section>
+    <h2>Qué datos procesa la app en tu celular</h2>
+    <p>Con tu autorización expresa (acceso a notificaciones), PagoAlerta lee las notificaciones de la app oficial de
+    Nequi para identificar el valor del pago y el nombre de quien lo envía. Las notificaciones de otras apps se
+    ignoran.</p>
+    <ul>
+      <li>Los pagos detectados se guardan <strong>solo en tu celular</strong> durante 15 días y luego se borran
+      automáticamente.</li>
+      <li>Esta información <strong>no se envía</strong> a WowDark SAS ni a ningún otro servidor.</li>
+      <li>Puedes borrar todo en cualquier momento desinstalando la app o borrando sus datos desde los ajustes de
+      Android.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Qué datos se envían para la licencia</h2>
+    <p>Para verificar que tu licencia esté activa, la app envía periódicamente a nuestro servidor (alojado en
+    Supabase) los siguientes datos:</p>
+    <ul>
+      <li>Un identificador anónimo del celular (un código derivado del identificador de Android, que no permite
+      conocer tu identidad).</li>
+      <li>El nombre del negocio y el número de contacto que escribas al solicitar la licencia (opcionales).</li>
+      <li>El modelo del celular y la versión de la app.</li>
+    </ul>
+    <p>Usamos estos datos únicamente para gestionar tu licencia y contactarte sobre ella. No los vendemos ni los
+    compartimos con terceros, y viajan cifrados (HTTPS).</p>
+  </section>
+
+  <section>
+    <h2>Permisos que usa la app</h2>
+    <ul>
+      <li><strong>Acceso a notificaciones:</strong> para leer las notificaciones de pago de Nequi.</li>
+      <li><strong>Notificaciones y pantalla completa:</strong> para mostrarte cada pago, aun con el celular bloqueado.</li>
+      <li><strong>Servicio en primer plano e inicio automático:</strong> para seguir funcionando en segundo plano y
+      después de reiniciar el celular.</li>
+      <li><strong>Internet:</strong> solo para verificar la licencia.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Conservación y eliminación</h2>
+    <p>Los datos de la licencia se conservan mientras tengas una licencia con nosotros. Puedes pedir que los
+    eliminemos escribiendo a <strong><a href="mailto:wowdarksas@gmail.com">wowdarksas@gmail.com</a></strong>; los borraremos en un plazo máximo de 15 días
+    hábiles, conforme a la Ley 1581 de 2012 de protección de datos personales de Colombia.</p>
+  </section>
+
+  <section>
+    <h2>Menores de edad</h2>
+    <p>PagoAlerta es una herramienta para negocios y no está dirigida a menores de 18 años.</p>
+  </section>
+
+  <section>
+    <h2>Cambios y contacto</h2>
+    <p>Si cambiamos esta política, publicaremos la nueva versión en esta misma página. Para cualquier pregunta
+    escríbenos a <strong><a href="mailto:wowdarksas@gmail.com">wowdarksas@gmail.com</a></strong>.</p>
+  </section>
+</main>
+<footer>© 2026 WowDark SAS · PagoAlerta</footer>
+</body>
+</html>
